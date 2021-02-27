@@ -1,0 +1,56 @@
+div {
+    display: block;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+p {
+    margin: 0 0 1rem;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+.section {
+    padding: 1rem .5rem;
+    background-color: #f8f9fa;
+}
+.main {
+    padding: calc((100vh - 2rem - 96px)/ 2) 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.orange-link {
+    margin: 0.4rem;
+    color: #EA7500;
+    text-decoration: none;
+}
+
+.gray-link {
+    margin: 0.4rem;
+    color: #667189;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: white;
+}
+
+.copyright {
+    padding-bottom: 1rem;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
