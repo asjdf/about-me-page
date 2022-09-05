@@ -1,0 +1,21 @@
+{
+  "name": "about-me-page",
+  "version": "1.0.0",
+  "description": "一个应付备案的个人介绍单页",
+  "scripts": {
+    "test": "http-server ./ -a 0.0.0.0 -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asjdf/about-me-page.git"
+  },
+  "author": "HomeboyC",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/asjdf/about-me-page/issues"
+  },
+  "homepage": "https://github.com/asjdf/about-me-page",
+  "devdependencies": {
+    "http-server": "^14.1.1"
+  }
+}
